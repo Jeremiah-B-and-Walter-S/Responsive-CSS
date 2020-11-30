@@ -2,7 +2,7 @@
 /*    background-color: plum;*/
 /*}*/
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 1px) and (max-width: 800px) {
     /*mobile view*/
     body{
         margin: 10px;
@@ -12,6 +12,9 @@
     .alert-info{
         background-color: #CCFFFE;
         border: 2px solid lightgray;
+        min-height: 30px;
+        padding: 15px 0 5px 0;
+        text-align: bottom;
     }
     .nav-links {
         text-align: center;
@@ -26,10 +29,17 @@
     li{
         margin: 10px;
         background-color: lightgray;
+        padding: 5px;
     }
 
     img{
         max-width: calc(100% - 20px);
+    }
+    h2{
+        text-align: left;
+    }
+    p{
+        text-align: left;
     }
 }
 
