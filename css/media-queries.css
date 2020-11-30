@@ -2,23 +2,35 @@
 /*    background-color: plum;*/
 /*}*/
 
-@media screen and (min-width: 400px) and (max-width: 991px) {
+@media screen and (max-width: 800px) {
     /*mobile view*/
-
     body{
         margin: 10px;
-
+        text-align: center;
+        max-width: calc(100% - 20px);
     }
-    .header-img{
-        width: 1;
+    .alert-info{
+        background-color: #CCFFFE;
+        border: 2px solid lightgray;
+    }
+    .nav-links {
+        text-align: center;
+        text-decoration: underline;
+        background-color: white;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        color: black;
+    }
+
+    li{
+        margin: 10px;
+        background-color: lightgray;
+    }
+
+    img{
+        max-width: calc(100% - 20px);
     }
 }
 
-@media screen and (min-width: 992px){
-  /*desktop view*/
-
-    body{
-
-    }
-}
 
