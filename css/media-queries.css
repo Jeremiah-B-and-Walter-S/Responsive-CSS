@@ -2,7 +2,7 @@
 /*    background-color: plum;*/
 /*}*/
 
-@media screen and (min-width: 1px) and (max-width: 800px) {
+@media screen and (min-width: 400px) and (max-width: 991px) {
     /*mobile view*/
     body{
         margin: 10px;
@@ -38,6 +38,64 @@
     h2{
         text-align: left;
     }
+    p{
+        text-align: left;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    /*desktop view*/
+    body{
+        margin: 10px;
+        text-align: center;
+        max-width: calc(100% - 20px);
+    }
+
+    h1{
+        float: left;
+    }
+    .alert-info{
+        display: none;
+    }
+    .nav-links {
+
+        text-decoration: underline;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: right;
+
+
+    }
+
+
+    li{
+        margin: 10px;
+        padding: 5px;
+        float: left;
+    }
+
+    img{
+        /*max-width: calc(100% - 20px);*/
+        /*clear: right;*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        clear: left;
+    }
+    #main{
+        float: left;
+        text-align: left;
+
+    }
+
+    .sub-section {
+        float: left;
+        text-align: left;
+    }
+
     p{
         text-align: left;
     }
