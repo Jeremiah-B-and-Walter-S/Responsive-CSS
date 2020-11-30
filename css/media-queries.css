@@ -1,0 +1,24 @@
+/*body {*/
+/*    background-color: plum;*/
+/*}*/
+
+@media screen and (min-width: 400px) and (max-width: 991px) {
+    /*mobile view*/
+
+    body{
+        margin: 10px;
+
+    }
+    .header-img{
+        width: 1;
+    }
+}
+
+@media screen and (min-width: 992px){
+  /*desktop view*/
+
+    body{
+
+    }
+}
+
